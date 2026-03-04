@@ -84,6 +84,6 @@ function onStart() {
       {{ displayTime }}
     </span>
 
-    <span>Count times: {{ cycle }}</span>
+    <span>Count times: {{ cycle + 1 }}</span>
   </div>
 </template>
